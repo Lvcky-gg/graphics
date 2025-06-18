@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -O2
 LDFLAGS = -lglfw -lGLEW -lGL
-SRC = main.c
+SRC = main.cpp
 OUT = main
 
 all: $(OUT)
